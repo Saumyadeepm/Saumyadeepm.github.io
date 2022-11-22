@@ -4,6 +4,8 @@ if (window.innerWidth < 768) {
 		elem.classList.remove('animated');
 		elem.removeAttribute('data-bss-hover-animate');
 		elem.removeAttribute('data-aos');
+		elem.removeAttribute('data-bss-parallax-bg');
+		elem.removeAttribute('data-bss-scroll-zoom');
 	});
 }
 
