@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://saumyd.com/contact.html</loc>
+        <loc>/contact.html</loc>
     </url>
     <url>
-        <loc>https://saumyd.com/cv.html</loc>
+        <loc>/cv.html</loc>
     </url>
     <url>
-        <loc>https://saumyd.com/hire-me.html</loc>
+        <loc>/hire-me.html</loc>
     </url>
     <url>
-        <loc>https://saumyd.com/</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>https://saumyd.com/project-page.html</loc>
+        <loc>/projects.html</loc>
     </url>
     <url>
-        <loc>https://saumyd.com/projects-compact-grid.html</loc>
-    </url>
-    <url>
-        <loc>https://saumyd.com/projects-grid-cards.html</loc>
+        <loc>/projects-no-images.html</loc>
     </url>
 </urlset>
