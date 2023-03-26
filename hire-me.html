@@ -36,19 +36,19 @@
                 <div class="heading">
                     <h2>Hire Me</h2>
                 </div>
-                <form>
-                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><select class="form-select" id="subject">
+                <form data-bss-recipient="c4e39cf40a41053bf073e17b1db491c7">
+                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><select class="form-select" id="subject" required="">
                             <option value="undefined">Expressing Admiration</option>
                             <option value="12" selected="">Collaboration</option>
                             <option value="13">Advice</option>
                             <option value="14">Feedback</option>
                             <optgroup label="This is a "></optgroup>
                         </select></div>
-                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control" type="email" id="email"></div>
-                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control" id="message"></textarea></div>
+                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control" type="email" id="email" required=""></div>
+                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control" id="message" required="" minlength="10"></textarea></div>
                     <div class="mb-3">
                         <div class="row">
-                            <div class="col-md-6"><label class="form-label" for="hire-date">Date</label><input class="form-control" id="hire-date" type="date"></div>
+                            <div class="col-md-6"><label class="form-label" for="hire-date">Date</label><input class="form-control" id="hire-date" type="date" required=""></div>
                             <div class="col-md-6 button"><button class="btn btn-primary d-block w-100" type="submit">Hire Me</button></div>
                         </div>
                     </div>
@@ -63,6 +63,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>

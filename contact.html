@@ -36,11 +36,11 @@
                 <div class="heading">
                     <h2>Contact me</h2>
                 </div>
-                <form>
-                    <div class="mb-3"><label class="form-label" for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
-                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
-                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control item" type="email" id="email"></div>
-                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
+                <form data-bss-recipient="c4e39cf40a41053bf073e17b1db491c7">
+                    <div class="mb-3"><label class="form-label" for="name">Your Name</label><input class="form-control item" type="text" id="name" required=""></div>
+                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><input class="form-control item" type="text" id="subject" required=""></div>
+                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control item" type="email" id="email" required=""></div>
+                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control item" id="message" required="" minlength="10"></textarea></div>
                     <div class="mb-3"><button class="btn btn-primary btn-lg d-block w-100" type="submit">Submit Form</button></div>
                 </form>
             </div>
@@ -53,6 +53,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
